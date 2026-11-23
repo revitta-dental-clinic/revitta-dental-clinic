@@ -1,59 +1,69 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ALWADEEQ DENTAL CLINIC</title>
+<meta name="theme-color" content="#12365a">
+<meta name="description" content="REVITTA DENTAL CLINIC — عيادة لطب الأسنان الحديث">
+<title>REVITTA DENTAL CLINIC</title>
 <style>
+:root{--navy:#12365a;--blue:#1682c8;--ink:#203247;--muted:#68798b;--pale:#f2f7fb;--line:#e2ebf2}
 *{box-sizing:border-box}
-body{margin:0;background:#f2f6fb;color:#203247;font-family:Arial,sans-serif;line-height:1.6}
-.hero{background:linear-gradient(135deg,#103b67,#1682cc);color:white;text-align:center;padding:35px 15px}
-.logo{width:145px;height:145px;object-fit:contain;background:white;border-radius:50%;padding:5px}
-.hero h1{font-size:27px;margin:12px 0 2px}
-.hero p{margin:4px}
-main{max-width:850px;margin:22px auto;padding:0 13px}
-.card{background:white;border-radius:15px;padding:22px;margin-bottom:17px;box-shadow:0 5px 20px #123d6810}
-h2{color:#123d68;font-size:21px;margin:0 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
-.info{background:#f5f9fd;border:1px solid #e1eaf2;border-radius:10px;padding:13px}
-small{display:block;color:#718096}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--pale);color:var(--ink);font-family:Arial,Tahoma,sans-serif;line-height:1.65}
+.hero{background:linear-gradient(135deg,#102e50,#176fa9);color:#fff;text-align:center;padding:42px 16px 36px}
+.logo{width:158px;height:158px;object-fit:contain;background:#fff;border-radius:50%;padding:4px;box-shadow:0 8px 28px #001b3550}
+h1{font-size:clamp(25px,5vw,36px);letter-spacing:.5px;margin:14px 0 2px}
+.tagline{font-size:19px;margin:4px 0 0}
+.subline{margin:3px 0 0;color:#d8e9f6}
+main{max-width:920px;margin:24px auto;padding:0 14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:23px;margin-bottom:18px;box-shadow:0 6px 22px #123d680c}
+h2{color:var(--navy);font-size:21px;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.info{background:#f6f9fc;border:1px solid var(--line);border-radius:12px;padding:14px}
+small{display:block;color:var(--muted);font-size:13px}
 strong{overflow-wrap:anywhere}
-.person{padding:13px;border-bottom:1px solid #e5edf4}
+.person{padding:13px 2px;border-bottom:1px solid var(--line)}
 .person:last-child{border:0}
-.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.gallery img{width:100%;height:230px;object-fit:cover;border-radius:10px}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:11px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:11px;color:#fff;background:var(--blue)}
+.btn.green{background:#168a50}
+.btn.dark{background:var(--navy)}
+.socials{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.social{min-width:125px;text-align:center;text-decoration:none;color:var(--ink);font-weight:700;padding:13px;border:1px solid var(--line);border-radius:13px;background:#f8fbfd}
+.social span{display:block;font-size:25px;margin-bottom:3px}
 .seals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;align-items:center;justify-items:center}
-.seals img{width:100%;max-width:190px;height:170px;object-fit:contain;background:white;border:1px solid #e1eaf2;border-radius:12px;padding:8px}
-a{color:#1769aa;text-decoration:none}
-footer{text-align:center;background:#103b67;color:white;padding:20px;font-size:13px}
-@media(max-width:480px){.gallery img{height:170px}.seals img{height:135px}.card{padding:17px}}
+.seals img{width:100%;max-width:210px;height:170px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px}
+footer{text-align:center;background:#102e50;color:#fff;padding:22px 14px;font-size:14px}
+a{color:#1769aa}
+@media(max-width:520px){.card{padding:18px}.logo{width:140px;height:140px}.seals img{height:140px}.social{min-width:105px}}
 </style>
 </head>
 <body>
-
 <header class="hero">
-<img class="logo" src="file_0000000037b48210b0a0c7591ded0329.png" alt="ALWADEEQ Logo">
-<h1>ALWADEEQ DENTAL CLINIC</h1>
-<p>عيادة الودق لطب وتجميل الأسنان</p>
-<p>Professional Dental Care</p>
+<img class="logo" src="revitta-logo.png" alt="REVITTA Dental Clinic logo">
+<h1>REVITTA DENTAL CLINIC</h1>
+<p class="tagline" dir="rtl">عيادة لطب الأسنان الحديث</p>
+<p class="subline">Modern Dental Care</p>
 </header>
-<section style="background:white;padding:22px;margin:20px 13px;border-radius:15px;text-align:center;box-shadow:0 5px 20px #123d6810">
-<h2 style="color:#123d68;margin-bottom:15px">Book Your Appointment</h2>
-<a href="https://wa.me/9647721653495?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%88%D8%AF%D9%82."
-target="_blank"
-style="display:inline-block;background:#168a50;color:white;padding:14px 22px;border-radius:10px;font-size:17px;font-weight:bold;text-decoration:none">
-احجز موعدك الآن عبر واتساب
-</a>
-</section>
+
 <main>
+<section class="card" style="text-align:center">
+<h2>Book Your Appointment</h2>
+<p dir="rtl">لحجز موعد، تواصل معنا مباشرة عبر واتساب</p>
+<div class="actions">
+<a class="btn green" href="https://wa.me/9647800371127?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D9%8A%20REVITTA%20DENTAL%20CLINIC." target="_blank" rel="noopener">احجز موعدك عبر واتساب</a>
+<a class="btn dark" href="tel:+9647800371127">اتصال للحجز: 07800371127</a>
+</div>
+</section>
+
 <section class="card">
 <h2>Clinic Information</h2>
 <div class="grid">
-<div class="info"><small>Owner & Clinic Manager</small><strong>Dr. Ali Dhahir Mohammed Al-Jassase</strong></div>
-<div class="info"><small>Address</small><strong>Iraq – Al-Kufa, Kinda District, Near Misk Restaurant</strong></div>
-<div class="info"><small>Phone</small><strong><a href="tel:+9647721653495">+964 772 165 3495</a></strong></div>
-<div class="info"><small>Email</small><strong><a href="mailto:dr.alidhahirmohammed@gmail.com">dr.alidhahirmohammed@gmail.com</a></strong></div>
+<div class="info"><small>Clinic Name</small><strong>REVITTA DENTAL CLINIC</strong></div>
+<div class="info"><small>Description</small><strong dir="rtl">عيادة لطب الأسنان الحديث</strong></div>
+<div class="info"><small>Patient Booking</small><strong><a href="tel:+9647800371127">07800371127</a></strong></div>
+<div class="info"><small>Clinic Manager</small><strong><a href="tel:+9647721653495">07721653495</a></strong><small>Manager contact</small></div>
 <div class="info"><small>Working Days</small><strong>Saturday – Thursday</strong></div>
 <div class="info"><small>Working Hours</small><strong>4:00 PM – 10:00 PM</strong><small>Friday: Closed</small></div>
 </div>
@@ -62,13 +72,11 @@ style="display:inline-block;background:#168a50;color:white;padding:14px 22px;bor
 <section class="card">
 <h2>Our Dental Team</h2>
 <div class="person"><strong>Dr. Ali Dhahir Mohammed Al-Jassase</strong><br><small>Owner & Clinic Manager</small></div>
-  <div class="person">
-<strong>IBTIHAJ HASAN SALIH ALHAJJAR</strong><br>
-<small>General Dentist</small>
-  </div>
+<div class="person"><strong>IBTIHAJ HASAN SALIH ALHAJJAR</strong><br><small>General Dentist</small></div>
 <div class="person"><strong>KARRAR HAIDER MOHAMMED ALKABY</strong><br><small>Clinic Staff</small></div>
 <div class="person"><strong>MOHAMMED JALAL ALMOSAWY</strong><br><small>Clinic Staff</small></div>
 </section>
+
 <section class="card">
 <h2>Our Services</h2>
 <div class="grid">
@@ -83,56 +91,34 @@ style="display:inline-block;background:#168a50;color:white;padding:14px 22px;bor
 </section>
 
 <section class="card">
-<h2>Our Clinic</h2>
-<div class="gallery">
-<img src="images.jpeg" alt="Clinic Waiting Area">
-<img src="images (2).jpeg" alt="Dental Treatment Room">
-  <img src="file_00000000cbf482109a589e940b70116d.png" alt="Clinic Exterior">
-</div>
-</section>
-
-<section class="card">
 <h2>Professional Associations</h2>
 <div class="seals">
 <img src="images.jpg" alt="Iraqi Dental Association">
-<img src="images (1).jpeg" alt="Najaf Dental Association Branch">
+<img src="images%20(1).jpeg" alt="Najaf Dental Association Branch">
 </div>
 </section>
 
-<section class="card">
+<section class="card" style="text-align:center">
 <h2>Our Location</h2>
-<p>Find ALWADEEQ DENTAL CLINIC on Google Maps.</p>
-<a href="https://maps.app.goo.gl/cY9EUKuae7aPH4UN8?g_st=ac" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#1769aa;color:white;padding:12px 18px;border-radius:10px;font-weight:bold;text-decoration:none">📍 View Our Location on Google Maps</a>
+<p dir="rtl">موقع عيادة ريفيتا على الخريطة</p>
+<a class="btn dark" href="https://share.google/xJhjuutOLmt4PQOKy" target="_blank" rel="noopener">📍 View Clinic Location</a>
 </section>
 
 <section class="card">
-<h2>Follow Us</h2>
-<div style="display:flex;justify-content:center;gap:25px;flex-wrap:wrap">
-<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" style="text-align:center;text-decoration:none;color:#203247;font-weight:bold">
-<span style="display:flex;width:55px;height:55px;border-radius:50%;background:#1877f2;color:white;align-items:center;justify-content:center;font-size:34px;font-weight:bold">f</span>
-Facebook
-</a>
-<a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" style="text-align:center;text-decoration:none;color:#203247;font-weight:bold">
-<span style="display:flex;width:55px;height:55px;border-radius:50%;background:linear-gradient(45deg,#feda75,#d62976,#962fbf,#4f5bd5);color:white;align-items:center;justify-content:center;font-size:32px">◎</span>
-Instagram
-</a>
-<a href="https://wa.me/9647721653495" target="_blank" rel="noopener noreferrer" style="text-align:center;text-decoration:none;color:#203247;font-weight:bold">
-<span style="display:flex;width:55px;height:55px;border-radius:50%;background:#25d366;color:white;align-items:center;justify-content:center;font-size:30px">☎</span>
-WhatsApp
-</a>
+<h2>Follow & Contact Us</h2>
+<div class="socials">
+<a class="social" href="https://www.facebook.com/share/1QG7cggxFg/?mibextid=wwXIfr" target="_blank" rel="noopener"><span>f</span>Facebook</a>
+<a class="social" href="https://www.tiktok.com/@revita_clinic?_r=1&_t=ZS-9Bds9xAV3Mj" target="_blank" rel="noopener"><span>♪</span>TikTok</a>
+<a class="social" href="https://www.instagram.com/revita__clinic?lqvp=MTc1ejlxcmtrcWtoZg==" target="_blank" rel="noopener"><span>◎</span>Instagram</a>
+<a class="social" href="https://wa.me/9647800371127" target="_blank" rel="noopener"><span>☎</span>WhatsApp Booking</a>
 </div>
-</section>
-
-<section class="card">
-<h2>Contact Us</h2>
-<p>Phone: <a href="tel:+9647721653495">+964 772 165 3495</a></p>
-<p>Email: <a href="mailto:dr.alidhahirmohammed@gmail.com">dr.alidhahirmohammed@gmail.com</a></p>
-<p>Address: Al-Kufa, Kinda District, Near Misk Restaurant, Iraq</p>
+<p>Booking: <a href="tel:+9647800371127">07800371127</a></p>
+<p>Clinic Manager: <a href="tel:+9647721653495">07721653495</a></p>
 </section>
 </main>
-
 <footer>
-ALWADEEQ DENTAL CLINIC<br>
+<strong>REVITTA DENTAL CLINIC</strong><br>
+<span dir="rtl">عيادة لطب الأسنان الحديث</span><br>
 Saturday – Thursday | 4:00 PM – 10:00 PM
 </footer>
 </body>
